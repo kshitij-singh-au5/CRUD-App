@@ -98,5 +98,5 @@ app.post("/deleteuser", function (req, res) {
         }
     })
 })
-app.listen(4000);
+app.listen(process.env.PORT||4000);
 

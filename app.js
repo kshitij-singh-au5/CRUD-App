@@ -9,7 +9,7 @@ app.set("view engine", "hbs")
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false }))
 
-var url = "mongodb://localhost:27017"
+var url = "mongodb+srv://kshitij7:12345@cluster0-6awrx.mongodb.net/CRUD?retryWrites=true&w=majority"
 var dbName = "CRUD"
 var DB = ""
 
